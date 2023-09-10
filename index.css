@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+} 
+body{
+    background-image: url(code1.jpg);
+    background-size: cover;
+    
+}
+
+.navbar-brand {
+    color: whitesmoke;
+    font-size: 5em;
+    text-shadow: 0 0 10px aqua;
+
+
+}
+#bg-img-view img{
+    margin: 2em;
+    border: 1px solid black;
+    border-radius: 2em;
+    box-shadow: 0 0 20px white;
+}
+
+.dark nav{
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.dark nav a {
+    color: white;
+}
+
+body.dark{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.dark .form-control{
+    background-color: rgb(185, 176, 176);
+    color: white;
+}
